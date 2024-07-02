@@ -61,13 +61,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 ```
 sudo nano ~/.zshrc
 ```
-- Add Code and don't forget to comment the default theme line
+- Add this Code and don't forget to comment the default theme line
+```
 ZSH_THEME="spaceship"
 SPACESHIP_CHAR_SUFFyIX=" "
 
 source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+```
 - Reload ZSH
 ```
 source ~/.zshrc
