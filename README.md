@@ -66,6 +66,8 @@ sudo nano ~/.zshrc
 ZSH_THEME="spaceship"
 SPACESHIP_CHAR_SUFFyIX=" "
 
+source $ZSH/oh-my-zsh.sh
+
 source $ZSH_CUSTOM/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH_CUSTOM/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 ```
